@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C34097AB93DA242B9BE44084 /* Pods_Lottie_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806B39E811E35128E1451B36 /* Pods_Lottie_Demo.framework */; };
+		E7F525F6276067C500CE1D7E /* santa-pop-up.json in Resources */ = {isa = PBXBuildFile; fileRef = E7F525F5276067C500CE1D7E /* santa-pop-up.json */; };
 		E7FFDC632760634000EF104B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FFDC622760634000EF104B /* AppDelegate.swift */; };
 		E7FFDC652760634000EF104B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FFDC642760634000EF104B /* SceneDelegate.swift */; };
 		E7FFDC672760634000EF104B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FFDC662760634000EF104B /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 		806B39E811E35128E1451B36 /* Pods_Lottie_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AD64C3A4EFB97FBC5ADD53 /* Pods-Lottie-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Demo.release.xcconfig"; path = "Target Support Files/Pods-Lottie-Demo/Pods-Lottie-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		9A49E935A42515CCC140522C /* Pods-Lottie-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Lottie-Demo/Pods-Lottie-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E7F525F5276067C500CE1D7E /* santa-pop-up.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "santa-pop-up.json"; sourceTree = "<group>"; };
 		E7FFDC5F2760634000EF104B /* Lottie-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7FFDC622760634000EF104B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7FFDC642760634000EF104B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				9A49E935A42515CCC140522C /* Pods-Lottie-Demo.debug.xcconfig */,
 				95AD64C3A4EFB97FBC5ADD53 /* Pods-Lottie-Demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +59,14 @@
 				806B39E811E35128E1451B36 /* Pods_Lottie_Demo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7F525F4276067AD00CE1D7E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E7F525F5276067C500CE1D7E /* santa-pop-up.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		E7FFDC562760634000EF104B = {
@@ -81,6 +90,7 @@
 		E7FFDC612760634000EF104B /* Lottie-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E7F525F4276067AD00CE1D7E /* Data */,
 				E7FFDC622760634000EF104B /* AppDelegate.swift */,
 				E7FFDC642760634000EF104B /* SceneDelegate.swift */,
 				E7FFDC662760634000EF104B /* ViewController.swift */,
@@ -154,6 +164,7 @@
 			files = (
 				E7FFDC6F2760634100EF104B /* LaunchScreen.storyboard in Resources */,
 				E7FFDC6C2760634100EF104B /* Assets.xcassets in Resources */,
+				E7F525F6276067C500CE1D7E /* santa-pop-up.json in Resources */,
 				E7FFDC6A2760634000EF104B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
