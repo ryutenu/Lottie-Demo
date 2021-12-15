@@ -23,14 +23,13 @@ class ViewController: UIViewController {
         animationView.contentMode = .scaleAspectFit
         
         // Set the animation style
-        animationView.loopMode = .playOnce
         animationView.animationSpeed = 1
         
         // Add animation view to super view
         view.addSubview(animationView)
         
-        // Play animation once then remove it from super view
-        animationView.play { finished in
+        // Play animation once then remove it from super view(fromProgress: start time, toProgress: end time)
+        animationView.play(fromProgress: 0, toProgress: 1, loopMode: .playOnce) { finished in
             if finished {
                 animationView.removeFromSuperview()
             }
