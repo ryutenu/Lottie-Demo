@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         view.addSubview(animationView)
         
         // Play animation once then remove it from super view(fromProgress: start time, toProgress: end time)
-        animationView.play(fromProgress: 0, toProgress: 1, loopMode: .playOnce) { finished in
+        animationView.play(fromProgress: 0, toProgress: 1, loopMode: .loop) { finished in
             if finished {
                 animationView.removeFromSuperview()
             }
